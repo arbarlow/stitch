@@ -6,6 +6,7 @@ import { connect } from "react-redux";
 import { getTrace } from "./actions/api.js";
 import { filter, flattenDeep } from "lodash";
 import styles from "./Trace.css";
+console.log(styles);
 
 const traceTree = (trace, traces) => {
   if (!trace.parentId) {
