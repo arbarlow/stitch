@@ -1,11 +1,10 @@
 {
   "extends": [
-    "google",
-    "eslint:recommended",
-    "plugin:react/recommended",
     "react-app"
   ],
-  "plugins": ["react"],
+  "plugins": [
+    "react"
+  ],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true,

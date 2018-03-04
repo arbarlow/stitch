@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Link } from "react-router-dom";
 import Trace from "./Trace.js";
+import { hot } from "react-hot-loader";
 
 const App = () => (
   <div>
@@ -13,4 +14,4 @@ const App = () => (
   </div>
 );
 
-export default App;
+export default hot(module)(App);
