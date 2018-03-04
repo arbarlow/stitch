@@ -3,4 +3,4 @@ run:
 	parcel src/index.html
 
 build:
-	parcel build src/index.html
+	parcel build src/index.html --public-url /
